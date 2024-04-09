@@ -13,22 +13,23 @@
 
 
 <body>
- <h2> <span id="NimTitle"> The Game of Nim </span> <span id="numberOfStones"> Number of Stones: <span id="stoneCount">15</span> </span></h2>
     
+        
+               <h2> <span id="NimTitle"> The Game of Nim </span> <span id="numberOfStones"> Number of Stones: <span id="stoneCount">15</span> </span></h2>
+    
+     <div id="dialog1"title="Nim Game"> </div>
+          <div id="canvasDiv">   	
+               <canvas id="myCanvas"   width ="800" height ="650">
+                    Canvas not supported!
+               </canvas>
+               <div id="canvasInstructions">
+                    <p>Choose the Clover to reset game. Choose the Human Arm to play against another player. Choose the robotic arm to play against the Computer. Choose the mushroom to undo a move </p>
+                   <p>Select stones from one row</p>
+                    <p> Click the Hand to register Player move. Click the Robotic hand to register CPU move </p>
+               </div>
+          </div>
 
-<div id="dialog1"title="Nim Game"> </div>
-	
-   <div id="canvasDiv">   	
-         
-          <canvas id="myCanvas"   width ="800" height ="650">
-       	       Canvas not supported!
-           </canvas>
-     </div>
-
-<div id="drawStones" class="theStones">
-     	
-     </div>
+     <div id="drawStones" class="theStones"> </div> 
  
-
 </body>
 </html>

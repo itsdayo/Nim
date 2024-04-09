@@ -4,30 +4,38 @@
    Copyright 2013 csums. All rights reserved.
 */
 
-#myCanvas{
+#myCanvas {
   border: solid 2px;
 }
 
-#canvasDiv{
-    position:center;
-    top: 150px;
-    left: 10px;
+#canvasDiv {
+  position: center;
+  top: 150px;
+  left: 10px;
+  flex-direction: row;
+  display: flex;
 }
 
-#tabs{
+#tabs {
   width: 800px;
 }
 
-#stoneCount{
-   color: #FF0000;
+#stoneCount {
+  color: #ff0000;
 }
 
-#numberOfStones{
+#numberOfStones {
   padding-left: 20px;
 }
 
-#NimTitle{
- width: 800px;
- margin-left: 100px;
- margin-right: 100px;
+#NimTitle {
+  width: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
+#canvasInstructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
